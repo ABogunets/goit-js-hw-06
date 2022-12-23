@@ -1,2 +1,1 @@
-# goit-markup-hw-04
-hw-04
+# goit-js-hw-06
