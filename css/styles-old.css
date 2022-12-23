@@ -1,0 +1,36 @@
+:root {
+    --primary-bkgd-color:#FFFFFF;
+    --secondary-bkgd-color:#2F303A;
+    --team-bkgd-color:#F5F4FA;
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --herobutton-accent-color: #188CE8;
+    --logo-text-color: #000000;
+
+    --contacts-footer-color: rgba(255, 255, 255, 0.6);
+    --portfolio-bkgd-color: #EEEEEE;
+    --header-line-color:#ECECEC;
+    --icon-color: #AFB1B8;
+
+    --duration: 250ms;
+    --modal-duration: 500ms;
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* Global */
+body {
+    background-color:var(--primary-bkgd-color);
+    color: var(--primary-text-color);
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.link,
+.card {
+    text-decoration: none;
+}
+img {
+    display: block;
+}
