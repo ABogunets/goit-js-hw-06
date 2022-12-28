@@ -7,7 +7,7 @@
 const inputRef = document.getElementById('font-size-control');
 const textRef = document.getElementById('text');
 
-inputRef.addEventListener('change', onInputChange);
+inputRef.addEventListener('input', onInputChange);
 
 function onInputChange(event) {
   const barRangeSize = event.currentTarget.value;

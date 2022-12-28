@@ -26,7 +26,9 @@ const divBoxesRef = document.getElementById('boxes');
 //  з inputRef.value в момент обробки події createBtnRef
 
 //слухачі кнопок Створення та Видалення
-createBtnRef.addEventListener('click', () => {createBoxes(inputRef.value)});
+createBtnRef.addEventListener('click', () => {
+  createBoxes(inputRef.value)
+});
 destroyBtnRef.addEventListener('click', () => { destroyBoxes() });
 
 //функція створює коллекцию боксів
