@@ -25,13 +25,12 @@ const divBoxesRef = document.getElementById('boxes');
 //визначення кількості боксів для коллекціі визначаеємо
 //  з inputRef.value в момент обробки події createBtnRef
 
-//слухачі кнопок Створення та Видалення
+// слухачі кнопок Створення та Видалення
 createBtnRef.addEventListener('click', () => {
-  createBoxes(inputRef.value)
-});
+  createBoxes(inputRef.value)});
 destroyBtnRef.addEventListener('click', () => { destroyBoxes() });
 
-//функція створює коллекцию боксів
+// функція створює коллекцию боксів
 function createBoxes(amount) {
   divBoxesRef.style.marginTop = "20px";
   
